@@ -1,0 +1,112 @@
+/* Common Css ON Projects */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.conatainer {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+/* End All Common Css Style */
+
+/* Start Navabar Css Style Codding */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
+  padding: 0px 10px;
+  font-weight: 500;
+}
+nav .register-btn button,
+button {
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  background-color: #1d4ed8;
+}
+/* End Css Navbar Codding Style */
+
+/* Hero Section Css Codding Style Start Here */
+header .hero-section {
+  /* background-image: url(../assets/banner.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.418)), url(../assets/banner.jpg);
+}
+header .hero-conatain {
+  text-align: center;
+}
+.hero-conatain h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: "Inter", sans-serif;
+  padding-top: 90px;
+  font-style: italic;
+}
+.hero-conatain p {
+  color: #ffffffb2;
+  font-size: 22px;
+  font-style: normal;
+  padding: 40px 100px;
+}
+.hero-register-btn {
+  padding: 150px 0px 70px 0px;
+}
+.hero-register-btn button {
+  padding: 15px 25px;
+}
+/* Hero Section Style Codding End */
+
+/* Meet Speakers Section Css Style Codding Start Here */
+.meet-section{
+    margin: 50px auto;
+}
+.meet-section h2{
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #000102;
+}
+.speakers-cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom:60px;
+}
+.speakers-cards .speaker{
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    overflow: hidden;
+}
+.speaker img{
+    width: 100%;
+}
+.speaker p{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+}
+.speaker h3{
+    color: #0D1B2A;
+    font-weight: bold;
+    padding: 7px 0px;
+}
+.speaker .speaker-info{
+    padding: 20px;
+}
+.speaker .speaker-post{
+    color: #575757;
+    font-size: 14px;
+}
