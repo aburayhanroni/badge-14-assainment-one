@@ -1,8 +1,9 @@
 /* Common Css ON Projects */
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 .conatainer {
   margin: 0 auto;
@@ -52,6 +53,9 @@ header .hero-conatain {
   font-size: 80px;
   font-family: "Inter", sans-serif;
   padding-top: 90px;
+}
+.hero-conatain .hero-contain-title-italic{
+  font-style: italic;
 }
 .hero-conatain p {
   color: #ffffffb2;
@@ -111,6 +115,9 @@ header .hero-conatain {
 /* Meet Speakers Section Style End Here */
 
 /* Secure Plan Purchase Codding Style Start Here */
+.secure-purchase-plan{
+  margin-bottom: 30px;
+}
 .secure-purchase-plan .secure-title {
   text-align: center;
 }
@@ -153,7 +160,7 @@ header .hero-conatain {
 .active ul li::marker {
   color: #60a5fa;
 }
-.price-area .team-price-card{
+.price-area .team-price-card {
   background-color: #f8f9f8;
 }
 .plan-price-card .price {
@@ -184,12 +191,12 @@ header .hero-conatain {
 .plan-price-card .card-btn button {
   width: 100%;
 }
-.plan-price-card .standerd-btn button{
+.plan-price-card .standerd-btn button {
   background-color: white !important;
   border: 1px solid #2563eb;
   color: #2563eb;
 }
-.plan-price-card .contact-btn button{
+.plan-price-card .contact-btn button {
   border: 1px solid #0d1b2a;
   color: #0d1b2a;
   background: none;
@@ -197,3 +204,34 @@ header .hero-conatain {
 /* Secure plan section design Style End Here */
 
 /* Start a Footer Section Style Here */
+footer {
+  background: #0d1b2a;
+}
+.footer-contain {
+  padding: 40px 0px;
+}
+footer .logo-sosial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-sosial .sosial-media a {
+  color: rgba(255, 255, 255, 0.445);
+  padding-left: 30px;
+  text-decoration: none;
+
+}
+.logo-sosial .sosial-media a i {
+  padding-right: 8px;
+}
+
+.divider{
+  margin: 30px 0px;
+  background-color: rgba(255, 255, 255, 0.445);
+  border: none;
+  height: 1px;
+}
+.copy-right {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.445);
+}
