@@ -1,11 +1,11 @@
 /* Common Css ON Projects */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
 }
-.conatainer {
+.container {
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -54,7 +54,7 @@ header .hero-conatain {
   font-family: "Inter", sans-serif;
   padding-top: 90px;
 }
-.hero-conatain .hero-contain-title-italic{
+.hero-conatain .hero-contain-title-italic {
   font-style: italic;
 }
 .hero-conatain p {
@@ -100,7 +100,7 @@ header .hero-conatain {
   font-size: 12px;
   font-weight: 600;
 }
-.speaker h3 {
+ .speaker h3,.benefit-card h3{
   color: #0d1b2a;
   font-weight: bold;
   padding: 7px 0px;
@@ -108,25 +108,27 @@ header .hero-conatain {
 .speaker .speaker-info {
   padding: 20px;
 }
-.speaker .speaker-post {
+.speaker .speaker-post,.benefit-card p{
   color: #575757;
   font-size: 14px;
 }
 /* Meet Speakers Section Style End Here */
 
 /* Secure Plan Purchase Codding Style Start Here */
-.secure-purchase-plan{
+.secure-purchase-plan {
   margin-bottom: 30px;
 }
 .secure-purchase-plan .secure-title {
   text-align: center;
 }
-.secure-title h2 {
+.secure-title h2,
+.attend-title h2 {
   font-size: 45px;
   font-weight: bold;
   color: #0d1b2a;
 }
-.secure-title p {
+.secure-title p,
+.attend-title p {
   font-size: 16px;
   color: #575757;
   padding: 10px 0;
@@ -203,6 +205,52 @@ header .hero-conatain {
 }
 /* Secure plan section design Style End Here */
 
+/* Brand New Ai Genarate Section Style Here */
+.attend-devconf {
+  padding: 100px 0px;
+  border-radius: 5px;
+}
+.attend-devconf .attend-title {
+  text-align: center;
+}
+
+.attend-title p {
+  padding: 15px 250px;
+}
+.attend-devconf-benefit {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px 0px;
+
+}
+.attend-devconf-benefit .benefit-card {
+  border: 1px solid #1d4ed8;
+  background-color: #1d4fd80e;
+  padding: 20px;
+  border-radius: 5px;
+}
+.benefit-card div {
+  background: #2564eb23;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  border: 1px solid #2563eb;
+}
+.benefit-card div i {
+  color: blue;
+  font-size: 35px;
+}
+.attend-devconf-benefit .fechure-card{
+  grid-column: 2 span;
+  text-align: center;
+}
+/* Brand New Ai Genarate Section Style End Here */
+
 /* Start a Footer Section Style Here */
 footer {
   background: #0d1b2a;
@@ -219,13 +267,11 @@ footer .logo-sosial {
   color: rgba(255, 255, 255, 0.445);
   padding-left: 30px;
   text-decoration: none;
-
 }
 .logo-sosial .sosial-media a i {
   padding-right: 8px;
 }
-
-.divider{
+.divider {
   margin: 30px 0px;
   background-color: rgba(255, 255, 255, 0.445);
   border: none;
