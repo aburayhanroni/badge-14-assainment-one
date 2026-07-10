@@ -39,7 +39,6 @@ button {
 
 /* Hero Section Css Codding Style Start Here */
 header .hero-section {
-  /* background-image: url(../assets/banner.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +52,6 @@ header .hero-conatain {
   font-size: 80px;
   font-family: "Inter", sans-serif;
   padding-top: 90px;
-  font-style: italic;
 }
 .hero-conatain p {
   color: #ffffffb2;
@@ -70,43 +68,132 @@ header .hero-conatain {
 /* Hero Section Style Codding End */
 
 /* Meet Speakers Section Css Style Codding Start Here */
-.meet-section{
-    margin: 50px auto;
+.meet-section {
+  margin: 50px auto;
 }
-.meet-section h2{
-    padding: 30px 0px;
-    text-align: center;
-    font-size: 50px;
-    color: #000102;
+.meet-section h2 {
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 50px;
+  color: #000102;
 }
-.speakers-cards{
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(2,1fr);
-    padding-bottom:60px;
+.speakers-cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 60px;
 }
-.speakers-cards .speaker{
-    border-radius: 10px;
-    border: 1px solid #E5E7EB;
-    overflow: hidden;
+.speakers-cards .speaker {
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
 }
-.speaker img{
-    width: 100%;
+.speaker img {
+  width: 100%;
 }
-.speaker p{
-    color: #2563EB;
-    font-size: 12px;
-    font-weight: 600;
+.speaker p {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 600;
 }
-.speaker h3{
-    color: #0D1B2A;
-    font-weight: bold;
-    padding: 7px 0px;
+.speaker h3 {
+  color: #0d1b2a;
+  font-weight: bold;
+  padding: 7px 0px;
 }
-.speaker .speaker-info{
-    padding: 20px;
+.speaker .speaker-info {
+  padding: 20px;
 }
-.speaker .speaker-post{
-    color: #575757;
-    font-size: 14px;
+.speaker .speaker-post {
+  color: #575757;
+  font-size: 14px;
 }
+/* Meet Speakers Section Style End Here */
+
+/* Secure Plan Purchase Codding Style Start Here */
+.secure-purchase-plan .secure-title {
+  text-align: center;
+}
+.secure-title h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+.secure-title p {
+  font-size: 16px;
+  color: #575757;
+  padding: 10px 0;
+  font-family: "Inter", sans-serif;
+}
+.secure-purchase-plan .price-area {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.price-area .plan-price-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 25px;
+}
+.price-area .active {
+  background: #0d1b2a !important;
+}
+.price-area .active .price p {
+  color: #93c5fd;
+}
+.price-area .active .price .active-rules {
+  color: #ffffffa8;
+}
+.price-area .active .price h2 {
+  color: white;
+}
+.price-area .active ul li {
+  color: #ffffffc0;
+}
+.active ul li::marker {
+  color: #60a5fa;
+}
+.price-area .team-price-card{
+  background-color: #f8f9f8;
+}
+.plan-price-card .price {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.plan-price-card .active-price {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+}
+.plan-price-card .price p {
+  font-size: 13px;
+  color: #888888;
+}
+.plan-price-card .price h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #0d1b2a;
+}
+.plan-price-card .fechures {
+  padding: 20px;
+}
+.fechures ul li {
+  color: #333333;
+  font-size: 14px;
+  line-height: 21px;
+}
+.plan-price-card .card-btn button {
+  width: 100%;
+}
+.plan-price-card .standerd-btn button{
+  background-color: white !important;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+.plan-price-card .contact-btn button{
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
+  background: none;
+}
+/* Secure plan section design Style End Here */
+
+/* Start a Footer Section Style Here */
